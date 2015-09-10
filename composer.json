@@ -1,0 +1,21 @@
+{
+    "name": "pulyavin/tools",
+    "type": "library",
+    "description": "PHP tools library",
+    "homepage": "https://github.com/pulyavin/php-tools",
+    "authors": [
+        {
+            "name": "matvey",
+            "email": "artemiy@pulyavin.ru"
+        }
+    ],
+    "require": {
+		"php": ">=5.3",
+		"ext-curl": "*"
+    },
+    "autoload": {
+		"psr-4": {
+            "pulyavin\\tools\\": ""
+		}
+    }
+}
