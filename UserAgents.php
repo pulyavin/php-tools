@@ -1,4 +1,6 @@
-<?php namespace pulyavin\streams;
+<?php
+
+namespace pulyavin\tools;
 
 /**
  * Class UserAgents

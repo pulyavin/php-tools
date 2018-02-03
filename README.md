@@ -11,11 +11,27 @@ Installation
     curl -sS https://getcomposer.org/installer | php
     ```
 
-0. Add the streams dependency:
+1. Add dependency
 
-    ```
-    php composer.phar require 'pulyavin/tools:0.*' 
-    ```
+```
+{
+    "require": {
+        "pulyavin/tools": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/pulyavin/miner"
+        }
+    ]
+}
+```
+
+2. Update:
+
+```
+php composer.phar update
+```
 
 Usage
 -----
